@@ -23,6 +23,7 @@ public class BaseClass {
 	@BeforeSuite
 	public void setUpSuite() throws IOException {
 		 ex=new ExcelDataProvider();
+		 //this is one two
 		cd=new ConfigDataProvider();
 		File file=new File("D:/workspace/NEWONE/Reports/learn_automation1.html");
 		 ExtentSparkReporter reporter=new ExtentSparkReporter(file);
